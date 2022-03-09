@@ -24,12 +24,12 @@ function clicked (){
     var backchar2 = document.getElementById('char_right');
     if(z == 1){
         
-        backchar1.style.backgroundColor = 'blue';
-        backchar2.style.backgroundColor = 'yellow';
+        backchar1.style.backgroundColor = '#ff7777';
+        backchar2.style.backgroundColor = 'rgb(255, 162, 162)';
     }
     else if(z == 0){
-        backchar1.style.backgroundColor = 'yellow';
-        backchar2.style.backgroundColor = 'blue';
+        backchar1.style.backgroundColor = 'rgb(255, 162, 162)';
+        backchar2.style.backgroundColor = '#ff7777';
 
     }
 }
